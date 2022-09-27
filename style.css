@@ -37,3 +37,45 @@ a {
     text-decoration: none;
     color: #e5e7eb;
 }
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    gap: 170px;
+}
+
+.hero-img img {
+    max-width: 600px;
+    height: 300px;
+    
+}
+
+.hero-container {
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 18px;
+    
+}
+
+/* Button */
+
+.sign {
+    width: 100px;
+    background-color: blue;
+    color: #e5e7eb;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+
+    
+}
